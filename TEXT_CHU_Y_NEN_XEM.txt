@@ -1,0 +1,16 @@
+﻿Tài khoản demo quản lý:
+link đăng nhập: http://localhost/index.php?controller=quan-ly/dang-nhap
+tài khoản : clone@gmail.com
+
+Tài khoản demo quản trị viên:
+link đăng nhập: http://localhost/index.php?controller=quan-ly/dang-nhap
+tài khoản : admin@LTW.com
+
+Tài khoản demo người dùng:
+link đăng nhập: http://localhost/index.php?controller=trang-chu/dang-nhap
+tài khoản: clonetrasua1@gmail.com
+
+MẬT KHẨU CHUNG: 123456
+
+
+

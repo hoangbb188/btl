@@ -1,0 +1,12 @@
+#ErrorDocument 404 /404.html
+RewriteEngine On
+
+#tiki
+RewriteRule ^load-listing-price$ api.php?act=load-listing-price [L]
+RewriteRule ^logout$ api.php?act=logout [L]
+RewriteRule ^admin-logout$ api.php?act=admin-logout [L]
+RewriteRule ^load-modal$ API/load-modal.php [L]
+RewriteRule ^index.html$ index.php [L]
+RewriteRule ^404.html$ view/trangchu/404.php [L]
+RewriteRule ^API-(.*)$ api.php?act=$1 [L]
+RewriteRule ^(.*)/(.*).html$ index.php?controller=$1/$2 [L]

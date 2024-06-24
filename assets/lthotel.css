@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+  }
+/* ==================== Menu top ==================== */
+@media only screen and (min-width: 768px) {
+    .dropdown:hover .dropdown-menuhover {
+        display: block;
+    }
+
+    .dropdown-hover:hover .dropdown-toggle {
+        background-color: #167ac6;
+        color: white !important;
+    }
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: white;
+    z-index: 1;
+    border-radius: 0;
+}
+.navbar li a,
+.navbar .navbar-brand,
+.navbar .navbar-text {
+    color: #000 !important;
+}
+.navbar-nav li:not(.active) a:hover {
+    color: white !important;
+    background-color: #167ac6 !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: blue !important;
+
+}
+.navbar-nav li.active a {
+    background-color: #337ab7 !important;
+    color: white !important;
+}
+.navbar-right li{
+    border-right:1px solid #ccc;
+
+}
+.navbar-right li:last-child{
+    border-right:none;
+}
+
+
+.bg {
+    background-image: linear-gradient(to bottom, rgb(192, 198, 229), white);
+    padding-top: 20px;
+}
+
+
+/* ==================== footer ==================== */
+.footer-content {
+    background: #383838;
+    color: white;
+    padding: 20px;
+    margin: 50px 0px 0px 0px;
+}
+.footer-content .top{
+    color: yellow;
+    font-size:25px;
+    position: relative;
+    animation: Top 1s ease-in-out 0s infinite;
+}
+@keyframes Top{
+    from{top:5px;}
+    to{top:10px;}
+}
+.footer-content a {
+    color: white;
+}
+
+.footer-content h3,
+.footer-content li {
+    margin-bottom: 20px;
+}
+
+
+/* ==================== icon ==================== */
+[class*="star-"]{
+    color: gold;
+    font-size: 16px !important;
+}
+.star-1::before{content: "\f005"}
+.star-2::before{content: "\f005 \f005"}
+.star-3::before{content: "\f005 \f005 \f005"}
+.star-4::before{content: "\f005 \f005 \f005 \f005"}
+.star-5::before{content: "\f005 \f005 \f005 \f005 \f005"}
+
+
+/* ========================= Đăng ký - đăng nhập ========================= */
+.user {
+    width: 40%;
+    min-width: 400px;
+    border: 1px solid #ccc;
+    padding: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-center {
+    margin: 0 auto;
+}
+.user-bg{background: #1d96d3;padding: 0 15px 15px;}
+.user-bg h3{color: white}
+.breadcrumb {
+    padding-left: 100px;
+}
+
+
+#avt.img-thumbnail{
+    object-fit: cover;
+    width:285px;
+    height: 195px;
+}
